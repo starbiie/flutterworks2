@@ -1,6 +1,12 @@
+import 'package:first_app/bottom.dart';
 import 'package:first_app/bulder.dart';
 import 'package:first_app/gridbuld.dart';
+import 'package:first_app/home.dart';
+import 'package:first_app/hotel.dart';
 import 'package:first_app/mario.dart';
+import 'package:first_app/tab.dart';
+import 'package:first_app/travelApp.dart';
+import 'package:first_app/travelnavigation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:mario(),
+      home:travelnavigation(),
 
     );
   }
